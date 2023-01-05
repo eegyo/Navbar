@@ -1,3 +1,3 @@
 # Navbar
 
-Navbar Component ui Kit
+Navbar Component UI Kit
