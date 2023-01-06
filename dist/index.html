@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-  </head>
-  <body>
 
-    
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+</head>
 
-<!-- Header Menu Di tengah -->
-    <header>
-      <div class="max-w-7xl lg:mx-auto p-2 flex items-center  justify-between">
-        <div class="lg:space-x-1">
-          <img  src="../assets/Logo Eegyo.png" alt="" />
-        </div>
-        <div
-          class="hidden font-poppins md:flex items-center text-center space-x-2 md:text-sm lg:text-base"
-        >
-          <a
-            class=" px-3 py-2 transition duration-150 border-b-2 border-transparent hover:border-eegyoColorPrimary "
-            href=""
-            >Bootcamp For Smk</a
-          >
-          <a
-            class=" px-3 py-2  transition duration-150 border-b-2 border-transparent hover:border-eegyoColorPrimary"
-            href=""
-            >Bootcamp For Bisnis</a
-          >
-          <a
-            class=" px-3 py-2  transition duration-150 border-b-2 border-transparent hover:border-eegyoColorPrimary"
-            href=""
-            >Bootcamp For karyawan</a
-          >
-          <a
-            class=" px-3 py-2  transition duration-150 border-b-2 border-transparent hover:border-eegyoColorPrimary"
-            href=""
-            >Blog</a
-          >
-          <a
-            class=" px-3 py-2 transition duration-150 border-b-2 border-transparent hover:border-eegyoColorPrimary"
-            href=""
-            >Kelas Online</a
-          >
-        </div>
-        <div class="mr-3 lg:ml-14">
-          <a
-            class="bg-eegyoColorPrimary py-3 px-5 lg:px-14  text-black lg:text-xl text-base hover:bg-yellow-400 font-poppins"
-            href=""
-            >Login</a
-          >
+<body>
+
+
+
+  <!-- Header Menu Di tengah -->
+  <header class="w-full shadow-lg lg:shadow-lg fixed">
+    <div
+      class="lg:max-w-7xl lg:mx-auto lg:p-2 lg:flex lg:items-center lg:justify-between p-2 flex items-center justify-between flex-wrap">
+      <div class="lg:space-x-1 w-48 -ml-7 ">
+        <img src="../assets/Logo Eegyo.png" alt="" />
       </div>
-      <div class="lg:hidden mr-5">
-        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      <div
+        class="hidden font-poppins md:hidden lg:-ml-11 xl:flex xl:items-center lg:flex lg:items-center space-x-2  lg:text-sm ">
+        <a class=" lg:px-3 py-2 transition duration-500 border-b-2 border-transparent hover:border-eegyoColorPrimary "
+          href="">Bootcamp For Smk</a>
+        <a class=" lg:px-3 py-2  transition duration-500 border-b-2 border-transparent hover:border-eegyoColorPrimary"
+          href="">Bootcamp For Bisnis</a>
+        <a class=" lg:px-3 py-2  transition duration-500 border-b-2 border-transparent hover:border-eegyoColorPrimary"
+          href="">Bootcamp For karyawan</a>
+        <a class=" lg:px-3 py-2  transition duration-500 border-b-2 border-transparent hover:border-eegyoColorPrimary"
+          href="">Blog</a>
+        <a class=" lg:px-3 py-2 transition duration-500 border-b-2 border-transparent hover:border-eegyoColorPrimary"
+          href="">Kelas Online</a>
+      </div>
+
+
+      <div class="md:invisible lg:visible">
+        <a class="bg-eegyoColorPrimary py-3 px-5 lg:px-14 xl:px-14   text-black lg:text-xl text-base hover:bg-yellow-400 font-poppins"
+          href="">Login</a>
+      </div>
+      <button class="lg:hidden  mobile-menu-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
+
+      </button>
+
+      <div class="mobile-menu bg-white w-full -ml-1  bg-pertama lg:hidden md:visible   ">
+        <a class="block px-4 py-2 font-body font-semibold text-black rounded-sm hover:bg-eegyoColorPrimary" href="">Bootcamp
+          For Smk</a>
+        <a class="block px-4 py-2 font-body font-semibold text-black rounded-sm hover:bg-eegyoColorPrimary " href="">Bootcamp For Bisnis</a>
+        <a class="block px-4 py-2 font-body font-semibold text-black rounded-sm hover:bg-eegyoColorPrimary" href="">Bootcamp
+          For Karyawan</a>
+          <a class="block px-4 py-2 font-body font-semibold text-black rounded-sm hover:bg-eegyoColorPrimary" href="">Blog</a>
+          <a class="block px-4 py-2 font-body font-semibold text-black rounded-sm hover:bg-eegyoColorPrimary" href="https://kelas.eegyo.com/pelatihan">Kelas
+            Online</a>
       </div>
-    </header>  
-<!-- Header Menu Di  -->    
 
+  </header>
+  <!-- Header Menu Di  -->
 
-
-
-<!-- Header Menu Di Kanan -->
-<header>
+  <!-- Header Menu Di Kanan -->
+  <!-- <header>
       <div class="max-w-7xl mx-auto p-2 flex items-center justify-between">
         <div class="lg:space-x-2">
           <img class=" " src="../assets/Logo Eegyo.png"  alt="" />
@@ -110,15 +108,15 @@
           </svg>
         </div>
       </div>
-</header>  
-    
-<!-- Header Menu Di Kanan -->
+</header>   -->
+
+  <!-- Header Menu Di Kanan -->
 
 
 
- 
-<!-- Header Brand Dan Button -->
-<header>
+
+  <!-- Header Brand Dan Button -->
+  <!-- <header>
   <div class="max-w-7xl lg:mx-auto p-2 flex items-center justify-between">
     <div class="space-x-2">
      <img src="../assets/Logo Eegyo.png" alt="" />
@@ -132,9 +130,19 @@
       >
     </div>
   </div>
-</header>
-<!-- Header Brand Dan Buttom -->
+</header> -->
+  <!-- Header Brand Dan Buttom -->
 
 
-  </body>
+  <script>
+    const btn = document.querySelector('button.mobile-menu-button');
+    const menu = document.querySelector('.mobile-menu');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    })
+  </script>
+
+</body>
+
 </html>
